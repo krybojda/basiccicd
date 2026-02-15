@@ -27,7 +27,7 @@ jobs:
         
       - name: Run Tests with Coverage
         run: npm run test:coverage
-        continue-on-error: true # ten fragment
+        #continue-on-error: true # ten fragment
   
   docker:
     name: Docker Build and Test
