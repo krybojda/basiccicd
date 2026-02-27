@@ -24,3 +24,19 @@ Repozytorium zawiera materiały szkoleniowe dla CI/CD z wykorzystaniem GitHub Ac
 - [GitOps z Argo CD](./README-gitops.md) - Automated GitOps workflows (~2h)
 
 **Uwaga:** Moduł GitOps (README-gitops.md) jest przeznaczony dla uczestników średnio-zaawansowanych do zaawansowanych.
+
+## Prosty przykładowy program CLI
+
+Dla szybkiego pokazu działania dodałem prosty program konsolowy:
+
+```bash
+npm run example
+```
+
+Z własnym miastem:
+
+```bash
+npm run example -- Kraków
+```
+
+Program wypisze przykładowy raport pogodowy i działa lokalnie (bez zewnętrznego API).
