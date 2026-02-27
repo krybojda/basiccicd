@@ -356,3 +356,16 @@ Diagram pokazuje:
 - Niektóre kroki używają predefiniowanych `actions`
 
 > Więcej o strukturze workflow w [dokumentacji GitHub](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
+
+## Gotowy przykład workflow CI
+
+Jeśli chcesz szybko wystartować, możesz skopiować gotowy przykład:
+
+- `./.github/workflows/ci-example.yml.sample`
+
+Przykład zawiera:
+- trigger na `push`, `pull_request` i `workflow_dispatch`,
+- instalację zależności (`npm ci`),
+- build (`npm run build`),
+- testy (`npm test -- --runInBand`),
+- upload artefaktu `dist/`.
